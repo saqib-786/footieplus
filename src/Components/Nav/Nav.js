@@ -107,14 +107,14 @@ function Nav() {
         {isOpen ? 
        <Box sx={{
         background:'white',
-        maxHeight:'100vh',
+        
         zIndex:9997,
         display:'flex',
         flexDirection:'column',
         alignItems:'flex-start',
-        // overflow:'auto',
+        
         marginTop:2,
-        // transform:'scaleY(1)',
+        
         position:'relative',
       
        }} component="div">
