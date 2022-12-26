@@ -28,7 +28,7 @@ export default function PositionedMenu({ menuItems = [] }) {
           sx={{
             background: "#FFFF00",
             width: { lg: "180px", md: "150px" },
-            height: { md: "60px", xs: "40px" },
+            height: { lg:'60px',md:"50px",sm:'40px', xs:"40px" },
             borderRadius: "0px",
             fontSize: { lg: "20px", md: "16px" },
             color: "black",

@@ -18,6 +18,38 @@
   --animate-duration: 2s;
   --animate-delay: 0.9s;
 } */
+
+.custom_slider .carousel-control-next-icon, .custom_slider .carousel-control-prev-icon{
+background-color: black;
+background-size: 18px 18px;
+
+}
+
+.custom_slider .carousel-control-next-icon{
+background-image: url("/public/Assets/arrow-right.png");
+position: relative;
+left:25%
+
+}
+
+.custom_slider .carousel-control-prev-icon{
+background-image: url("/public/Assets/arrow-left.png");
+position: relative;
+right: 25%;
+
+}
+
+ul{
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  
+  /* background-color: rebeccapurple; */
+
+}
+
 .Nav{
   display: inline-block;
   color: white !important;
@@ -41,7 +73,7 @@
   flex-wrap: wrap;
 } */
 .slide_1{
-  background-image: url('../public/Assets/bg.jpg');
+  background-image: url('../public/Assets/Slide_img_1.jpg');
   height: 100vh;
   background-size: 100% 100%;
   display: flex !important;
@@ -51,7 +83,7 @@
   border-bottom:1px solid white ;
 }
 .slide_2{
-  background-image: url('../public/Assets/Slide_2.jpg');
+  background-image: url('../public/Assets/Slide_img_2.jpeg');
   height: 100vh;
   background-size: 100% 100%;
   display: flex !important;
@@ -61,7 +93,37 @@
   border-bottom:1px solid white ;
 }
 .slide_3{
-  background-image: url('../public/Assets/Slide_3.jpg');
+  background-image: url('../public/Assets/Slide_img_3.jpeg');
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom:1px solid white ;
+}
+.slide_4{
+  background-image: url('../public/Assets/Slide_img_4.jpeg');
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom:1px solid white ;
+}
+.slide_5{
+  background-image: url('../public/Assets/Slide_img_5.jpeg');
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom:1px solid white ;
+}
+.slide_6{
+  background-image: url('../public/Assets/Slide_img_6.jpeg');
   height: 100vh;
   background-size: 100% 100%;
   display: flex !important;
@@ -105,6 +167,8 @@
   font-size: 32px !important;
   margin-top: 20px !important;
   
+ 
+  
 } 
 
 #NavBar > div{
@@ -113,6 +177,15 @@
 }
 #footerContainer{
   width: 100%;
+}
+.social_icon_container{
+ flex-direction: column;
+ width: 30%;
+ height: 80px;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ left: 6%;
 }
 
 }

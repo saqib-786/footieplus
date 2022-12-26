@@ -8,7 +8,9 @@ import React from "react";
 import "../../App.css";
 import CustomButton from "../Buttons/CustomButton";
 import Carousel from 'react-bootstrap/Carousel';
-import { Slide_1, Slide_2, Slide_3 } from "../Slides";
+import { Slide_1, Slide_2, Slide_3,Slide_4,Slide_5,Slide_6 } from "../Slides";
+import { CarouselItem } from "react-bootstrap";
+
 
 
 function Slider() {
@@ -204,7 +206,7 @@ function Slider() {
           <span class="visually-hidden">Next</span>
         </button>
       </div> */}
- <Carousel>
+ <Carousel className="custom_slider">
       <Carousel.Item>
         <Slide_1/>
       </Carousel.Item>
@@ -214,6 +216,15 @@ function Slider() {
       <Carousel.Item>
       <Slide_3/>
       </Carousel.Item>
+      <CarouselItem>
+        <Slide_4/>
+      </CarouselItem>
+      <CarouselItem>
+        <Slide_5/>
+      </CarouselItem>
+      <CarouselItem>
+        <Slide_6/>
+      </CarouselItem>
     </Carousel>
 
     </React.Fragment>

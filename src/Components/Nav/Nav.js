@@ -187,7 +187,7 @@ function Nav() {
               src="./assets/footie.png"
             />
           </Box>
-          <Box>
+          <Box sx={{ }}>
             <nav>
               <ul>
                 <li className="Nav">
@@ -340,30 +340,38 @@ function Nav() {
               </ul>
             </nav>
           </Box>
-          <Box sx={{ display: "flex" }}>
+          <Box className="social_icon_container" sx={{ display: "flex",  }}>
             <Box>
               <Menu menuItems={["PanCakeSwap", "QuickSwap", "Conintiger"]} />
             </Box>
             <Box
               sx={{
                 display: "flex",
-                width: "210px",
+                width: "140px",
                 justifyContent: "space-around",
                 flexWrap: "wrap",
                 alignItems: "center",
+                
               }}
             >
               <button
                 style={{
                   border: "1px solid #FFFF00 ",
                   borderRadius: "30px",
-                  padding: "5px",
-                  width: "40px",
-                  height: "40px",
+                  padding: "6px",
+                  width: "30px",
+                  height: "30px",
                   background: "none",
+                  display:'flex',
+                  justifyContent:'center',
+                  alignItems:'center'
                 }}
               >
                 <img
+                style={{
+                  position:'relative',
+                  right:'2px'
+                }}
                   width="18px"
                   height="16px"
                   src="./Assets/paper_plan.png"
@@ -375,14 +383,18 @@ function Nav() {
                 style={{
                   border: "1px solid #FFFF00 ",
                   borderRadius: "30px",
-                  padding: "5px",
-                  width: "40px",
-                  height: "40px",
+                  padding: "6px",
+                  width: "30px",
+                  height: "30px",
                   background: "none",
                 }}
               >
                 <img
-                  width="20px"
+                style={{
+                  position:'relative',
+                  bottom:'5px'
+                }}
+                  width="18px"
                   height="16px"
                   src="./Assets/twitter.png"
                   alt="twitter icon"
@@ -392,13 +404,19 @@ function Nav() {
                 style={{
                   border: "1px solid #FFFF00",
                   borderRadius: "30px",
-                  padding: "5px",
-                  width: "40px",
-                  height: "40px",
+                  padding: "6px",
+                  width: "30px",
+                  height: "30px",
                   background: "none",
                 }}
               >
-                <img width="20px" height="16px" src="./Assets/m_icon.png" />
+                <img
+                style={{
+                  position:'relative',
+                  bottom:'6px',
+                  right:'1px'
+                }}
+                 width="18px" height="16px" src="./Assets/m_icon.png" />
               </button>
             </Box>
           </Box>

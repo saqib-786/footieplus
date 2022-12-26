@@ -131,6 +131,14 @@ export const Slide_3 = () => {
           coin while offering profit opportunities to our community supply
           chain.
         </Typography>
+        <img
+       className="animate__delay-1s	1s animate__animated animate__fadeInRight "
+         style={{
+          position:'absolute',
+          left:'1150px',
+          top:'200px',
+          zIndex:55555
+        }} width="50%" height="80%" src="./Assets/Player.png" />
       </div>
     </>
   );

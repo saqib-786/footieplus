@@ -130,6 +130,14 @@ export const Slide_1 = () => {
           Foundation and the $FOOTIE governance coin we are on a mission to
           bring a new dimension to football.
         </Typography>
+        <img
+       className="animate__delay-1s	1s animate__animated animate__fadeInRight "
+         style={{
+          position:'absolute',
+          left:'1150px',
+          top:'200px',
+          zIndex:55555
+        }} width="50%" height="80%" src="./Assets/Player.png" />
       </div>
     </>
   );

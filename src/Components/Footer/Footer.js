@@ -43,6 +43,7 @@ function Footer() {
                 </Typography>
                 <form>
                   <OutlinedInput
+                  onChange={(e)=>setEmail(e.target.value)}
                     placeholder="Email"
                     required
                     endAdornment={
@@ -91,12 +92,16 @@ function Footer() {
                     onMouseLeave={() => setShowEnvelop(false)}
                     src="./Assets/envelop_gray.png"
                     alt="envelop icon"
+                    width="32px"
+                    height="32px"
                   />
                 ) : (
                   <img
                     onMouseOver={() => setShowEnvelop(true)}
                     src="./Assets/envelop_yellow.png"
                     alt="envelop icon"
+                    width="32px"
+                    height="32px"
                   />
                 )}
                 <Typography
